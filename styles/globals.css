@@ -1,0 +1,35 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-accordion {
+    border: none !important;
+}
+.menu-accordion-button{
+    display: flex;
+}
+.menu-accordion-button{
+    background-color: white !important;
+}
+.menu-item-heading{
+    padding: 0.5rem;
+    --tw-text-opacity: 1;
+    color: rgba(75, 85, 99, var(--tw-text-opacity));
+    font-weight: 500;
+}
+.menu-item-heading:hover{
+    --tw-text-opacity: 1;
+    color: rgba(17, 24, 39, var(--tw-text-opacity));
+}
+.menu-item-panel{
+    padding-left: 1.5rem;
+}
+
+
+.font1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
